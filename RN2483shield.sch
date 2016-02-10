@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:freetronics_schematic
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +29,10 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rn2483
-LIBS:sma_through
+LIBS:freetronics_schematic
 LIBS:screw_terminal
+LIBS:sma_through
 LIBS:sma
-LIBS:sma_edge
-LIBS:RN2483shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -164,7 +162,7 @@ U 1 1 56430378
 P 8600 1200
 F 0 "J2" H 8725 1515 60  0000 C CNN
 F 1 "SMA" H 8790 1440 60  0000 C CNN
-F 2 "sma:SMA" H 8775 1370 50  0000 C CNN
+F 2 "My_Library:SMA_BOARD_UPRIGHT" H 8775 1370 50  0000 C CNN
 F 3 "" H 8600 1200 60  0000 C CNN
 	1    8600 1200
 	0    -1   -1   0   
@@ -222,7 +220,7 @@ U 1 1 569F8A06
 P 7700 1200
 F 0 "J3" H 7825 1515 60  0000 C CNN
 F 1 "SMA" H 7890 1440 60  0000 C CNN
-F 2 "sma:SMA" H 7875 1370 50  0000 C CNN
+F 2 "My_Library:SMA_BOARD_UPRIGHT" H 7875 1370 50  0000 C CNN
 F 3 "" H 7700 1200 60  0000 C CNN
 	1    7700 1200
 	0    -1   -1   0   
@@ -261,7 +259,7 @@ U 1 1 56BB3343
 P 8200 3200
 F 0 "U1" H 8400 1750 60  0000 C CNN
 F 1 "RN2483" H 7800 1750 60  0000 C CNN
-F 2 "MyFootprints:RN2483" H 8300 2500 60  0001 C CNN
+F 2 "My_Library:RN2483" H 8300 2500 60  0001 C CNN
 F 3 "" H 8300 2500 60  0000 C CNN
 	1    8200 3200
 	1    0    0    -1  
