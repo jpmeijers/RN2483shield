@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SMA_through
+#
+DEF SMA_through J 0 40 Y Y 1 F N
+F0 "J" -200 500 60 H V C CNN
+F1 "SMA_through" -300 200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -150 350 71 0 1 0 N
+S -250 450 -50 250 0 1 0 N
+X GND 1 -450 400 200 R 50 50 1 1 P
+X SIG 2 -450 300 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
